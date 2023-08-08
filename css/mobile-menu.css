@@ -1,0 +1,124 @@
+.menu-toggle {
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  outline: transparent;
+  background-color: transparent;
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav-burger-menu-container {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  width: 100%;
+  height: 100%;
+  padding: 80px 40px 35px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--highlight-color);
+  z-index: 999;
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.nav-burger-menu-container.is-open {
+  transform: translateX(0);
+}
+
+.nav-burger-menu-container .menu-toggle {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: #fff;
+}
+
+.header-burger-menu-icon {
+  stroke: var(--secondary-color);
+}
+
+.page-nav-mobile-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: auto;
+}
+
+.menu-item-mobile-menu {
+  color: var(--secondary-color);
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  transition: color var(--trans-time-func);
+  min-width: 353px;
+}
+
+.menu-item-mobile-menu:hover,
+.menu-item-mobile-menu:focus,
+.menu-item-mobile-menu:active {
+  color: var(--portfolio-menu-button-active-color);
+}
+
+.contact-mobile-menu-tel {
+  width: 100%;
+  color: var(--accent-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.contact-mobile-menu-mail {
+  color: var(--secondary-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.menu-item-mobile-menu {
+  width: 100%;
+}
+
+.header-burger-menu-btn {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  outline: transparent;
+  background-color: transparent;
+}
+
+.socials-container-mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-icons-list-mobile-menu {
+  width: 328px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.menu-link-current-mobile-menu {
+  color: var(--portfolio-menu-button-active-color);
+}
+
+.menu-link-current-mobile-menu:visited {
+  color: inherit;
+}

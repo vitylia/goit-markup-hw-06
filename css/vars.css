@@ -1,0 +1,20 @@
+/* Variables */
+:root {
+  /* COLORS */
+  --accent-color: #4d5ae5;
+  --primary-color: #434455;
+  --secondary-color: #2e2f42;
+  --portfolio-menu-button-active-color: #404bbf;
+  --portfolio-menu-button-passive-color: #f4f4fd;
+  --portfolio-menu-button-border-color: #e7e9fc;
+  --highlight-color: #ffffff;
+  --bg-customer-box: #8e8f99;
+  --bg-footer-socials-active: #31d0aa;
+  --modal-windiw-bg: #fcfcfc;
+  height: 40px;
+  /* FONTS */
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  /* Transform Func */
+  --trans-time-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
