@@ -17,7 +17,7 @@
     letter-spacing: 0.02em;
     color: var(--primary-color);
     background-color: #ffffff;
-    min-width: 320px;
+  
   }
 
   .section-row-text {
@@ -26,13 +26,23 @@
     color: var(--primary-color);
   }
   .container {
-    width: 428px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
-    /* outline: solid 1px red; */
-  }
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 428px;
+    }
+    
+    @media screen and (min-width: 768px) {
+    .container {
+    max-width: 768px;
+    }
+    }
+    
+    @media screen and (min-width: 1200px) {
+    .container {
+    max-width: 1158px;
+    }
+    }
 
   .section {
     padding-top: 96px;
